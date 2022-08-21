@@ -112,13 +112,17 @@ a:hover{
 }
 .men form #inp{
     height: 45px;
-    width: 600px;
+    width: 90%;
     border-radius: 60px;
     background: linear-gradient(to top, rgba(237, 244, 244, 0.5)50%,rgba(237,244,244,0.5)50%);
     font-size: 20px;
-    color: rgb(75, 52, 3);
+    color: rgb(223, 243, 175);
     border: none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline: none;
 }
 ::placeholder{
     color: white;
@@ -129,18 +133,19 @@ a:hover{
 }
 form .lb{
     font-size: 30px;
-    padding-left: 10px;
-    margin-bottom: -15px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
 }
 .men form{
     position: relative;
     margin-top: 30px;
 }
 form .btn{
-    width: 250px;
+    width: 40%;
     height: 40px;
-    position: relative;
-    left: 175px;
     margin-top: 10px;
     font-size: 16px;
     font-family: Arial;
@@ -148,6 +153,9 @@ form .btn{
     cursor: pointer;
     background-color: aqua;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .btn:hover{
     background-color: coral;
